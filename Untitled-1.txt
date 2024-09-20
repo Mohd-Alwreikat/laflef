@@ -1,0 +1,12 @@
+function open() {
+  alert("hi");
+  let emails = document.getElementById("ema").value;
+  let passwords = document.getElementById("pass").value;
+
+  
+  if (emails=="" || passwords=="") {
+    alert("Please fill out all fields");
+  } else {
+      window.location.href = 'laflefindex.html'; 
+  }
+}
